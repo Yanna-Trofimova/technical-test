@@ -10,13 +10,13 @@ function App() {
 
   return (
     <>
-      {/* <UsersList /> */}
+      
 
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
            <Route path="/tweets" element={< UsersList/>} />
-           {/* <Route path="*" element={<Navigate to="/" replace />} /> */}
+           
         </Route>
        </Routes>
 
