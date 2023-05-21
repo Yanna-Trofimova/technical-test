@@ -15,8 +15,6 @@
 
 .logo{
     position: absolute;
-    width: 76px;
-    height: 22px;
     left: 20px;
     top: 20px;
 }
@@ -49,8 +47,10 @@
     width: 80px;
     height: 80px;
         
-           
-    background-image: url(../images/ellipse.png);
+    
+    background: #EBD8FF;
+    box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06), inset 0px -2.19582px 4.39163px #AE7BE3, inset 0px 4.39163px 3.29372px #FBF8FF;
+    border-radius: 85.17490000000001px;;
     
     background-position: 50%;
     background-repeat: no-repeat;
@@ -59,10 +59,8 @@
 
 .avatar{
     position: absolute;
-    width: 57px;
-    height: 57px;
-    left: 161.48000000000002px;
-    top: 185.48000000000002px;
+    left: 159.48000000000002px;
+    top: 186.48000000000002px;
     border-radius: 50%;
     background-color: #5736A3;
 }
@@ -113,4 +111,9 @@
         font-weight: 600;
         font-size: 18px;
         color: #373737;
+        cursor: pointer;
 }
+
+/* .buttonFollow:active {
+    background-color: #d6d3d3;
+} */

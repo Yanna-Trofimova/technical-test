@@ -23,7 +23,7 @@ const UserItem = ({ userAvatar, tweets, followers, id }) => {
   
   
 
-    const press = () => {
+  const press = () => {
       let className = (buttonFollow === "FOLLOW") ? "FOLLOWING" : "FOLLOW";
       setButtonFollow( className )
      
@@ -42,13 +42,13 @@ const UserItem = ({ userAvatar, tweets, followers, id }) => {
     <li className={css.list}  >
 
           <div className={css.container}>
-              <img src={logo} alt="logo" className={css.logo}/>
+              <img src={logo} alt="logo" width={'76px'} height={'22px'} className={css.logo}/>
               <img src={background} alt="standart" className={css.backgroundImg}/>
 
         <div className={css.userContainer}>
             <div className={css.wrapperUser}> 
               <div className={css.avatarContainer}>
-                    <img src={userAvatar} alt="avatar" className={css.avatar} />
+                    <img src={userAvatar} alt="avatar"  width={'62px'} height={'62px'}  className={css.avatar} />
               </div>
             </div>
                   <p className={css.userTextTweets }> {tweets} tweets</p>

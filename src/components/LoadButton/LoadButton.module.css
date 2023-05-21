@@ -23,10 +23,11 @@
         font-size: 18px;
         color: #373737;
         margin-bottom: 20px;
+        cursor: pointer;
         
 }
 
 .btnLoad:hover {
     background-color: #d6d3d3;
-    cursor: pointer;
+    
 }
