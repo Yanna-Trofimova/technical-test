@@ -9,9 +9,7 @@ import LoadButton from "../LoadButton/LoadButton";
 const UsersList = () => {
     const [userInfo, setUserInfo] = useState( []);
     const [, setError] = useState(null);
-    // const [page, setPage] = useState(() => {
-    // return JSON.parse(window.localStorage.getItem('page')) ?? 1});
-     const [page, setPage] = useState( 1);
+    const [page, setPage] = useState(1);
     const [buttonLoad, setButtonLoad] = useState(false);
     
 
@@ -34,11 +32,7 @@ const UsersList = () => {
     return setButtonLoad( false );
     };
     
-//     useEffect(() => {
 
-//     window.localStorage.setItem('page', JSON.stringify(page));
-    
-//    }, [page]);
     
 
     const onLoadMore = () => {
